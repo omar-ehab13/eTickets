@@ -16,7 +16,7 @@ namespace eTickets.Controllers
         {
             var actorsData = _context.Actors.ToList();
 
-            return View();
+            return View(actorsData);
         }
     }
 }
